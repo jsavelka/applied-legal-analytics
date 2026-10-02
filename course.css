@@ -1,4 +1,4 @@
-/* Minimal, self-contained styling for the current course website. */
+/* Minimal, self-contained styling shared by all locally hosted course editions. */
 :root { color-scheme: light; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #212121; background: #fafafa; }
 * { box-sizing: border-box; }
 body { max-width: 800px; margin: auto; padding: 0 16px 24px; font-size: 16px; line-height: 1.6; }

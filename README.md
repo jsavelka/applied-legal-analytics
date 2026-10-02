@@ -6,7 +6,7 @@ No build, package installation, or JavaScript is required.
 ## Editing and previewing
 
 Edit `legalanalytics2027.html` for the current course and `course.css` for its
-styling. `index.html` redirects to the current edition using a relative URL and
+styling shared across all local course editions. `index.html` redirects to the current edition using a relative URL and
 includes a fallback link. Earlier editions (2020–2025) retain their course
 content and use relative navigation links. The 2019 edition remains externally
 hosted. There was no 2026 edition.
@@ -40,9 +40,8 @@ under that domain. A course-owned organization or custom domain is another
 option if independent ownership or branding is desired.
 
 Internal course links use explicit `.html` filenames and relative paths so the
-site also works under a subdirectory or on another static host. The current
-edition's stylesheet is local; the archives retain their existing mini.css CDN
-stylesheet. `jurix2024.html` and `alaai2021schedule.html` are legacy files retained
+site also works under a subdirectory or on another static host. All local course editions share `course.css` for consistent navigation and
+page styling. `jurix2024.html` and `alaai2021schedule.html` are legacy files retained
 without changes.
 
 After choosing a destination, update any links to the course on the personal
